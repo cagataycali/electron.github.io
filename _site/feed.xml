@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-08T12:13:47-08:00</updated><id>http://localhost:4000//</id><title type="html">electron.today</title><subtitle>electron.today</subtitle><entry><title type="html">Mie - Min Browser powered tamper monkey script!</title><link href="http://localhost:4000/Mie/" rel="alternate" type="text/html" title="Mie - Min Browser powered tamper monkey script!" /><published>2017-02-08T00:00:00-08:00</published><updated>2017-02-08T00:00:00-08:00</updated><id>http://localhost:4000/Mie</id><content type="html" xml:base="http://localhost:4000/Mie/">&lt;p&gt;&lt;a href=&quot;https://github.com/feross/standard&quot;&gt;&lt;img src=&quot;https://cdn.rawgit.com/feross/standard/master/badge.svg&quot; alt=&quot;js-standard-style&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Min is a smarter, faster web browser. It includes features such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Information from &lt;a href=&quot;https://duckduckgo.com&quot;&gt;DuckDuckGo&lt;/a&gt; in the searchbar.&lt;/li&gt;
+  &lt;li&gt;Built-in ad and tracker blocking&lt;/li&gt;
+  &lt;li&gt;Fuzzy search&lt;/li&gt;
+  &lt;li&gt;Full-text search for bookmarks&lt;/li&gt;
+  &lt;li&gt;Reading list&lt;/li&gt;
+  &lt;li&gt;Tabs improvements (tabs open to the right, and fade out when inactive).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More information, and prebuilt binaries, are available &lt;a href=&quot;https://minbrowser.github.io/min/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;screenshots&quot;&gt;Screenshots&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://minbrowser.github.io/min/tour/img/searchbar_duckduckgo_answers.png&quot; alt=&quot;The searchbar, showing information from DuckDuckGo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://minbrowser.github.io/min/tour/img/tasks.png&quot; alt=&quot;The Tasks Overlay&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://minbrowser.github.io/min/tour/img/reading_list.png&quot; alt=&quot;Reader View&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;installing&quot;&gt;Installing&lt;/h2&gt;
+
+&lt;p&gt;If you just want to run Min, you can download binaries &lt;a href=&quot;https://github.com/minbrowser/min/releases&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you want to develop Min:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Install &lt;a href=&quot;https://nodejs.org&quot;&gt;Node&lt;/a&gt; and &lt;a href=&quot;http://gruntjs.com&quot;&gt;Grunt&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Run &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install&lt;/code&gt;, then run &lt;code class=&quot;highlighter-rouge&quot;&gt;grunt&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Download a copy of Electron from &lt;a href=&quot;https://github.com/electron/electron/releases&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Run &lt;code class=&quot;highlighter-rouge&quot;&gt;/Path/To/Electron /Path/To/Min&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;building-binaries&quot;&gt;Building Binaries&lt;/h2&gt;
+
+&lt;p&gt;If you are using OS X, install &lt;a href=&quot;http://brew.sh&quot;&gt;Homebrew&lt;/a&gt;, then run &lt;code class=&quot;highlighter-rouge&quot;&gt;brew install fakeroot dpkg&lt;/code&gt;.
+Then run &lt;code class=&quot;highlighter-rouge&quot;&gt;grunt build&lt;/code&gt;.&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+    setInterval(function(){
+        var totalHeight, currentScroll, visibleHeight;
+
+        if (document.documentElement.scrollTop)
+          { currentScroll = document.documentElement.scrollTop; }
+        else
+          { currentScroll = document.body.scrollTop; }
+
+        totalHeight = document.body.offsetHeight;
+        visibleHeight = document.documentElement.clientHeight;
+
+        if (totalHeight &lt;= currentScroll + visibleHeight )
+        {
+          window.location.href = &quot;https://github.com/svtek/MonkeyinElectron&quot;
+        }
+        }
+    , 1000);
+&lt;/script&gt;</content><summary type="html"></summary></entry><entry><title type="html">Add your electron project</title><link href="http://localhost:4000/Hello-World/" rel="alternate" type="text/html" title="Add your electron project" /><published>2014-03-03T00:00:00-08:00</published><updated>2014-03-03T00:00:00-08:00</updated><id>http://localhost:4000/Hello-World</id><content type="html" xml:base="http://localhost:4000/Hello-World/">&lt;p&gt;If you want share your electron project in subdir like as https://electron.today/awesome-electron
+You can pr!&lt;/p&gt;</content><summary type="html">If you want share your electron project in subdir like as https://electron.today/awesome-electron
+You can pr!</summary></entry></feed>
